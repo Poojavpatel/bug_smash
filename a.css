@@ -61,7 +61,7 @@ h1,h2{
     display:flex;
 }
 .homeheading{
-    margin: 5% auto;
+    margin: 4% auto 1.3%;
 }
 .homeheading h1{
     font-size: 2.3rem;
@@ -72,7 +72,54 @@ h1,h2{
 .homeheading p{
     font-size: 1.23rem;
     color: #959299;
-    margin: 0.9% 0%;
+    margin: 0% 0% 0.9% 0%;
+}
+.b{
+    display: flex;
+    width: 100%;
+}
+form.searchform{
+    margin:auto;
+    width: 60%;
+}
+.inputfield{
+    width: 100%;
+    height:3.2rem;
+    position: relative;
+    border: 1.2px solid #959299;
+    border-radius: 1.5rem;
+}
+.inputfield button{
+    background: 0 0;
+    border: 0;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    left: 2.5%;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: none;
+    overflow: hidden;
+}
+button svg{
+    fill: #ccc;
+    height: 100%;
+    transition: all .2s ease-out,color .2s ease-out;
+    cursor: pointer;
+}
+input#search{
+    height: 100%;
+    border: 0;
+    background: #fff;
+    display: block;
+    width: 100%;
+    padding: 0% 2%;
+    font-family: var(--headingfont);
+    font-size: 16px;
+    color: #959299;
 }
 .browse{
     width: 100%;
@@ -80,11 +127,6 @@ h1,h2{
     padding: 0% 5%;
     margin-top: 3%;
     color: #5a5a5a;
-}
-.browse h2{
-    margin-bottom: 3%;
-    font-size: 1.3rem;
-    font-weight: 300;
 }
 .cardcontainer{
     /* background: yellow; */
@@ -137,3 +179,15 @@ background: linear-gradient(to bottom, #38ef7d, #29f175);
     background: -webkit-linear-gradient(to bottom, #0cebeb, #20e3b2, #29ffc6);
     background: linear-gradient(to bottom, #0cebeb, #20e3b2, #29ffc6);
 }
+.newrelease{
+    width: 100%;
+    height: auto;
+    padding: 0% 5%;
+    margin-top: 0%;
+}
+.newrelease h2{
+    margin-bottom: 3%;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
